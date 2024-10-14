@@ -46,7 +46,7 @@ public class GameOfColonies extends JPanel implements ActionListener {
                 resetGame();
             }
         });
-        add(resetButton, BorderLayout.SOUTH);   
+        add(resetButton, BorderLayout.SOUTH);
 
     }
 
@@ -63,7 +63,7 @@ public class GameOfColonies extends JPanel implements ActionListener {
         repaint();
     }
 
-    }
+    
 
     private void initializeColonies() {
         for (int i = 0; i < INITIAL_COLONIES; i++) {
